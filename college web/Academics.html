@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics in RV University</title>
+    <style>
+        .logo
+        {
+            display: inline-block;
+            margin: 15px 5px;
+            margin-right: 350px;
+            width: 12%;
+            float: left;
+        }
+
+  
+         ul 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:white;
+            word-spacing: 2cm;
+        }
+        
+        li
+        {
+            float:left;
+        } 
+  
+        li a 
+        {
+            display: block;
+            color: black;
+            font-weight: bold;
+            letter-spacing: 0.48px;
+            text-align:center;
+            padding: 10px 55px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+  
+        li a:hover 
+        {
+            background-color:gray;
+        }
+
+        .img
+        {
+            position: relative;
+            text-align: center;
+            color: darkgoldenrod;
+            width: 80%;
+        }
+
+        .left1
+        {
+            position: absolute;
+            top: 30%;
+            left: 15px;
+            font-size: 45px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: whitesmoke;
+        }
+
+        
+        .left
+        {
+            position: absolute;
+            top: 45%;
+            left: 15px;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: whitesmoke;
+        }
+
+        .left2
+        {
+            position: absolute;
+            top: 65%;
+            left: 15px;
+            font-size: 45px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: whitesmoke;
+        }
+
+        .left4
+        {
+            position: absolute;
+            top: 55%;
+            left: 15px;
+            font-size: 45px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: whitesmoke;
+        }
+
+        .left3
+        {
+            position: absolute;
+            top: 80%;
+            left: 15px;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: whitesmoke;
+        }
+
+        .H1
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            text-align: left;
+            color: black;
+        }
+
+        .pimg
+        {
+            width: 500px;
+            height: 300px;
+            border: 5px double black;
+        }
+
+        .P1
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            text-align:justify;
+            color: gray;
+            float: right;
+        }
+
+        .H2
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            text-align: left;
+            color: black;
+        }
+
+       .grid-container 
+       {
+            display: grid;
+            height: 300px;
+            align-content: space-evenly;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-container > div
+        {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+        .img1
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img2
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img3
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img4
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img5
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img6
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img7
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img8
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img9
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img10
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img11
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img12
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img13
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .img14
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px black solid;
+        }
+
+        .grid-container1 
+       {
+            display: grid;
+            height: 50px;
+            align-content: space-evenly;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .img15
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+        .img16
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+        .img17
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+        .img18
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+        .img19
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+
+    
+     </style>
+</head>
+<body>
+    <img src="img/logo.jpg" class="logo">
+    <ul>
+        <li><a href="file:///E:/Sumedha/college%20web/Home.html">Home</a></li>
+        <li><a href="file:///E:/Sumedha/college%20web/About.html">About</a></li>
+        <li><a href="file:///E:/Sumedha/college%20web/Academics.html">Academics</a></li>
+        <li><a href="#Contacts">Contacts</a></li>
+    </ul>
+    <div class="img">
+        <img style="width: 125.5%;height: 20%;" src="img/AC1.jpeg"></div>
+        <p class="left1">Undergraduate Programmes</p>
+    <div class="left">Explore diverse undergraduate courses from our<br> three Inter-disciplinary
+        Schools that complement each other through a<br> choice of
+        Majors and Minors, thus creating an unbeatable portfolio.</div>
+        <p class="left4">AND</p>
+        <p class="left2">Postgraduate Programmes</p>
+        <div class="left3">Explore the opportunities to pursue world-class postgraduate-<br>
+            courses with excellent curriculum framed in consultation with<br>
+            top academicians and industry experts.</div>
+    <br><br>
+    <h1 class="H1">About Our Undergraduate Courses</h1>
+    <img class="pimg" src="img/logo2.png">
+    <p class="P1">Our courses have been curated keeping in mind the latest industrial practices<br> and innovations, providing a blend of liberal arts and professional degrees.<br> We make the most out of the innovative technologies and learning<br> environment to teach skills that are valued by the employers.<br><br>We offer a wide range of undergraduate courses in Bangalore across our three<br> schools to students who want to pursue B.Sc. (Hons.), B.A. (Hons.), B. Des.,<bR> B.B.A. (Hons.), B.Com (Hons.), and B.A. (Hons.) (Economics).</p>
+    <br><br> <br><br>
+    <h1 class="H2"> Our Programmes</h1>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="grid-container">
+        <div><a href="file:///E:/Sumedha/college%20web/LL.M.html" target="_blank"><img src="img/LLM.jpg"  class="img1"></a><p>LL.M.</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/PhD%20Programs.html" target="_blank"><img src="img/PHD.jpeg" class="img2"></a><p>PhD Programs</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.B.A.%20LL%20B.%20(Hons.).html" target="_blank"><img src="img/BBA.jpg"  class="img3"></a><p>B.B.A. LL B. (Hons.)</p></div>  
+        <div><a href="file:///E:/Sumedha/college%20web/B.A.%20LL%20B.%20(Hons.).html" target="_blank"><img src="img/BA.jpg"  class="img4"></a><p>B.A. LL B. (Hons.)</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.Sc.%20Computer%20Science.html" target="_blank"><img src="img/CSE.jpg"  class="img5"></a><p>B.Sc. Computer Science</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.Sc.%20(Hons.)%20Data%20Sciences.html" target="_blank"><img src="img/DS.jpg"  class="img6"></a><p>B.Sc. (Hons.) Data Sciences</p></div>  
+        <div><a href="file:///E:/Sumedha/college%20web/BABSc.html" target="_blank"><img src="img/BABSC.jpg"  class="img7"></a><p>B.A. / B.Sc.</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.Tech.%20(Hons.).html" target="_blank"><img src="img/CS.jpg"  class="img8"></a><p>B.Tech. (Hons.)</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.L.A.%20(Hons.).html" target="_blank"><img src="img/BLA.webp"  class="img9"></a><p>B.L.A. (Hons.)</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.Sc.%20(Hons.)%20Decision%20Sciences.html" target="_blank"><img src="img/Decision.jpg"  class="img10"></a><p>B.Sc. (Hons.) Decision Sciences</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/Bachelor%20of%20Design%20(B.Des.).html" target="_blank"><img src="img/Bdes.jpg"  class="img11"></a><p>Bachelor of Design (B.Des.)</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.B.A.%20(Hons.).html" target="_blank"><img src="img/BBA.jpg"  class="img12"></a><p>B.B.A. (Hons.)</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.Com%20(Hons.).html" target="_blank"><img src="img/BCOM.jpg"  class="img13"></a><p>B.Com (Hons.)</p></div>
+        <div><a href="file:///E:/Sumedha/college%20web/B.A.%20(Hons)(Economics).html" target="_blank"><img src="img/BAE.png"  class="img14"></a><p>B.A. (Hons)(Economics)</p></div>
+        </div>
+        <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br> 
+        <h1 class="H1">About Our Postgraduate Courses</h1>
+        <img class="pimg" src="img/student1.jpeg">
+        <p class="P1">RV University offers challenging and intensive master’s degree programmes to produce highly<br> competent professionals. Each curriculum has been comprehensively curated in line with industry<br> needs to groom our students into future professionals.Our world-class academic community<br> emphasizes on building the ability to work independently and think critically in our students.
+        <br><br>
+        We offer an exceptional environment and high quality learning experience to our students.<br> You can choose from a wide range of comprehensive postgraduate programmes offered by us,<br> such as M.B.A., M.A.(Economics), M.Des. to transform your career and pursue your interests
+        </p>
+        <br><br><br><br><br> 
+        <h1 class="H2"> Our Programmes</h1>
+        <br><br><br><br><br>  
+        <div class="grid-container">
+            <div><a href="file:///E:/Sumedha/college%20web/M.Tech.html" target="_blank"><img src="img/MTech.jpg"  class="img1"></a><p>M.Tech</p></div>
+            <div><a href="file:///E:/Sumedha/college%20web/M.A.%20(Economics).html" target="_blank"><img src="img/MA.png" class="img2"></a><p>M.A. (Economics)</p></div>
+            <div><a href="file:///E:/Sumedha/college%20web/Master%20of%20Design%20(M.Des.).html" target="_blank"><img src="img/Mdes.jpg"  class="img3"></a><p>Master of Design (M.Des.)</p></div>
+        </div>  
+        <br><br><br><br><br> <br><br><br><br><br>
+        <ol style="background-color: black;list-style: none;color: white;">
+            <section id="Contacts">
+            <li style="font-size: 30px;">CONTACT</li>
+            <ol style="font-size: 20px;">
+                <br><br><br>
+                <li>For general enquiry: enquiry@rvu.edu.in</li>
+                <br><br>
+                <li>Phone: +91 95136 73778</li>
+                <br><br>
+                <li>For admissions: admissions@rvu.edu.in</li>
+                <br><br>
+                <li>Phone: +91 89511 79896</li>
+                <br><br>
+                <li>Location: RV Vidyanikethan Post
+                    8th Mile , Mysuru Road, Bengaluru - 560 059</li>
+            </ol>
+            <br><br><br>
+            <div class="grid-container1">
+                <div><a href="https://www.facebook.com/RV.University1/" target="_blank"><img src="img/facebook.png"  class="img15"></a></div>
+                <div><a href="https://twitter.com/rvuniversity_" target="_blank"><img src="img/twitter.png" class="img16"></a></div>
+                <div><a href="https://www.instagram.com/rv.university/" target="_blank"><img src="img/insta.png"  class="img17"></a></div>  
+                <div><a href="https://in.linkedin.com/company/rv-university" target="_blank"><img src="img/linkdin.png"  class="img18"></a></div>
+                <div><a href="https://www.youtube.com/c/RVUniversity" target="_blank"><img src="img/youtube.png"  class="img19"></a></div>
+            </div>
+            <br><br><br><br>
+            </section>
+
+        </ol>
+
+</body>
+</html>
