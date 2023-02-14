@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About RV University</title>
+    <style>
+        .logo
+        {
+            display: inline-block;
+            margin: 15px 5px;
+            margin-right: 350px;
+            width: 12%;
+            float: left;
+        }
+
+  
+         ul 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:white;
+            word-spacing: 2cm;
+        }
+        
+        li
+        {
+            float:left;
+        } 
+  
+        li a 
+        {
+            display: block;
+            color: black;
+            font-weight: bold;
+            letter-spacing: 0.48px;
+            text-align:center;
+            padding: 10px 55px;
+            text-decoration: none;
+            font-size: 30px;
+        }
+  
+        li a:hover 
+        {
+            background-color:gray;
+        }
+
+        /*.img
+        {
+            position: relative;
+            text-align: center;
+            color: darkgoldenrod;
+            width: 80%;
+        }*/
+        
+        .left
+        {
+            position: absolute;
+            top: 45%;
+            left: 15px;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+
+        .text
+        {
+            width: 1000px;
+            height: 500px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            animation-name: example;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes example
+        {
+            10%{background-image: url(img/logo3.png);}
+            25%{background-image: url(img/building\ 1.png);}
+            50%{background-image: url(img/student2.jpeg);}
+            100%{background-image: url(img/campus.jpg);}
+        }
+
+        .H1
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            text-align: left;
+            color: black;
+        }
+
+        .img1
+        {
+            width: 600px;
+            height: 300px;
+            border: 5px double black;
+        }
+
+        .pimg
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            text-align: justify;
+            color: gray;
+            float: left;
+        }
+
+        .P1
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            text-align:justify;
+            color: gray;
+            float: right;
+        }
+
+        .H3
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+            text-align: left;
+            color: black;
+        }
+
+        .H4
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+            text-align: right;
+            color: black;
+        }
+        .FC
+        {
+            width: 600px;
+            height: 350px;
+            float: right;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .P2
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            text-align:justify;
+            color: gray;
+            float: left;
+        }
+
+        .Transport
+        {
+            width: 600px;
+            height: 350px;
+            float: left;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .P3
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            text-align:justify;
+            color: gray;
+            float: right;
+        }
+
+        .HC
+        {
+            width: 600px;
+            height: 350px;
+            float: right;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .SG
+        {
+            width: 600px;
+            height: 350px;
+            float: left;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .RS
+        {
+            width: 600px;
+            height: 350px;
+            float: right;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .internet
+        {
+            width: 600px;
+            height: 350px;
+            float: left;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .bank
+        {
+            width: 600px;
+            height: 350px;
+            float: right;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+        
+        .PO
+        {
+            width: 600px;
+            height: 350px;
+            float: left;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+        
+        .green
+        {
+            width: 600px;
+            height: 350px;
+            float: right;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .hostel
+        {
+            width: 600px;
+            height: 350px;
+            float: left;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .cctv
+        {
+            width: 600px;
+            height: 350px;
+            float: right;
+            border: 5px double black;
+            border-radius: 10%;
+        }
+
+        .grid-container 
+       {
+            display: grid;
+            height: 50px;
+            align-content: space-evenly;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .img2
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+        .img3
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+        .img4
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+        .img5
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+        .img6
+        {
+            width: 50px;
+            height: 50px;
+        }
+
+     </style>
+</head>
+<body>
+    <img src="img/logo.jpg" class="logo">
+    <ul>
+        <li><a href="file:///E:/Sumedha/college%20web/Home.html">Home</a></li>
+        <li><a href="file:///E:/Sumedha/college%20web/About.html">About</a></li>
+        <li><a href="file:///E:/Sumedha/college%20web/Academics.html">Academics</a></li>
+        <li><a href="#Contacts">Contacts</a></li>
+    </ul>
+   <!--<div class="img">
+        <img style="width: 125.5%;" src="img/building.png"></div>-->
+    <!--<div class="left">Infrastructure<br> A safe, secure, convenient<br> and comfortable campus!</div>-->
+    <div class="text"></div>
+    <br><br><br>
+    <h1 class="H1">Facilities and amenities in RV University’s campus</h1>
+    <br>   
+    <p class="pimg">Click The Image For Video</p>
+    <br><br><br>
+    <a href="https://www.youtube.com/watch?v=pAl_OqCfo1Q" target="_blank"><img class="img1" src="img/campus.jpg"></a>
+    <p class="P1">We are housed in a modern building that houses the administration departments<br> of the university, 
+        and spacious classrooms and labs. These are spread over 5700<br> square metres. Ramps and lifts have been thoughtfully
+         provided to enable easy access<br> and movement for the differently abled and those in need.We are developing a 4 lakh<br> 
+        Sq.Feet campus in the next 24 months that is modern and eco-friendly.<br><br>The classrooms are equipped with multimedia projectors and high-speed broadband<br> internet facilities for
+        seamless conduct of classes. The academic block has secured<br> Wi-Fi connectivity.</p>
+    <br><br><br> <br><br><br>
+    <h1 class="H2">General Amenities Include</h1>
+    <br><br><br>
+    <h2 class="H3">Multi-cuisine food court</h2>
+    <img class="FC" src="img/Food.jpg">
+    <p class="P2">“Mingo’s” – the multi-cuisine food court located in the RV University campus is <br> designed  to cater
+    to over a 1000 students, faculty and staff. This spacious and<br> well-ventilated cafeteria is spread over 500 square meters.
+    Food is prepared <br> in a modern kitchen where it is steam cooked. The washed dishes are<br> sterilized for hygienic serving.
+    <br><br>Apart from the main cafeteria, the campus also hosts a mini-food joint that offers<br> quick and ready-to-eat snacks to satiate
+    the hunger of its customers. This is <br>conveniently located at the centre of the campus.</p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <h2 class="H4">Transportation</h2>
+    <br>
+    <img class="Transport" src="img/Transport.jpg">
+    <p class="P3">RV University is located on the arterial Mysuru Road, about 12 kms. from the heart<br> of the city, and over 20 kms. from other major residential areas spread over the vast<br> city of Bengaluru. While we have a Metro station located right at our doorsteps<br> (Pattangere station), we are aware that metro connectivity is limited in the city, at<br> present.
+    <br><br>
+    To cater to the transportation needs of our students from far flung areas, we offer<br> buses for both students and staff. Our fleet of buses take care of commuting needs<br> of over 1,000 students. There are two exclusive buses for the staff too.
+    <br><br>
+    The city metropolitan transport service also runs city buses from important areas of<br> the city to the college. Some of the Bengaluru Metropolitan Transport Corporation<br> (BMTC) route numbers are 220, 221, 222, 224, 227 etc.</p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <h2 class="H3">Health Centre</h2>
+    <br>
+    <img class="HC" src="img/HC.jpg">
+    <p class="P2">The campus has an exclusive Health Centre which is open to all the students and<br> staff from 9 am to 7 pm, all through the week. An Ambulance is also stationed at<br> the Health Centre to meet any emergencies.
+    <br><br>
+    In addition, there is an exclusive clinical facility for hostel students from 5 pm to 7<br> pm. The health records of all hostel students are updated on a regular basis to keep<br> track of their health.
+    <br><br>
+    The Health centre has Two Qualified Medical Officers and nursing staff.
+    <br>
+    1. Doctors.
+    <br><br>
+    One male Medical officer —Experience 13 yrs.
+    <br><br>
+    One lady Medical Officer—Experience 4 yrs.
+    <br><br>
+    2. One Staff Nurse (5 yrs of Experience).
+    <br><br>
+    3. One Helper (Trained in Hospital for 5 yrs.)
+    </p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br><br><br><br> <br><br><br> <br><br><br>  
+    <h2 class="H4">Sports and Gymnasium</h2>
+    <br>
+    <img class="SG" src="img/SG.jpeg">
+    <p class="P3">The huge 50+ acres campus offers a plethora of sporting facilities to sports lovers.<br> Pick your choice from large fields for playing Cricket, Football or Hockey or play a<br> fast-paced game of Volleyball, Basketball, Badminton, or Table Tennis in both<br> indoor and outdoor courts, apart from indoor games and gymnasium.</p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <h2 class="H3">Reprographic Services</h2>
+    <img class="RS" src="img/RS.jpg">
+    <p class="P2">Anticipating the needs of our students, we have provided facilities for taking<br> photocopies, binding, lamination, etc, right in our campus. This is open at<br> convenient timings for use by students. A stationery store selling a wide variety of<br> products that students need is also located inside the food court complex alongside<br> the shop offering reprographic services.
+    </p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <h2 class="H4">Internet Facilities</h2>
+    <br>
+    <img class="internet" src="img/internet.jpg">
+    <p class="P3">RV University has a 1000 Mbps leased line on fibre. The browsing centre has 100<br> nodes and is open from 9.00 am to 12.00 midnight for access to students. RV<br> University is a Wi-Fi enabled campus.</p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <h2 class="H3">Banking Facilities</h2>
+    <img class="bank" src="img/bank.jpg">
+    <p class="P2">We have a fully automated bank (Kotak Mahindra Bank, RVCE Branch) with two<br> ATMs catering to the needs of over 7000 students, faculty and staff in the campus.<br> The bank provides an EC facility for parents and students to pay fees, hostel<br> charges, mess bills, University fees, etc</p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <h2 class="H4">Post Office</h2>
+    <br>
+    <img class="PO" src="img/PO.jpg">
+    <p class="P3">The campus has a branch post office, with the postal identification as R.V.<br> Vidyaniketan P.O. The post office also offers small savings schemes.</p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <h2 class="H3">Greenery</h2>
+    <img class="green" src="img/green.jpg">
+    <p class="P2">We do our bit to add the moniker of Bengaluru being a “Garden City”, as our<br> campus is an oasis of a lush green environment with various varieties of trees,<br> medicinal plants, and carefully maintained lawns spread all over the sprawling<br> campus.</p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <h2 class="H4">Hostel</h2>
+    <br>
+    <img class="hostel" src="img/hostel.jpg">
+    <p class="P3">We realize how difficult it can be for students to move away from the comfort of<br> their homes and stay in a hostel. To make their stay as safe and comfortable as<br> possible, we have provided a host of facilities and conveniences for our students.<br> The number of students accommodated in a room depends in which semester the<br> student is studying in. As the concentration and privacy required is more as<br> students’ progress from the first year to the final year, the type of accommodation<br> also varies.
+    <br><br>
+    There is one common mess for all the boarders and healthy and tasty vegetarian<br> food is served to them, in the Cauvery block. The boarders can also avail of sports,<br> gymnasium and Wi-Fi facilities.
+    <br><br><br>
+    Names of hostels
+    <br><br>
+    1. Chamundi block: First year U.G. students.
+    <br><br>
+    2. Cauvery Annex block: First year U.G. students.
+    <br><br>
+    3. Cauvery block — Second & Third year U.G. students and
+    <br><br>
+    4. Sir M. Visweswaraya block : Final year U.G. and P.G. students.
+    <br><br>
+    RV University Girls Hostel Details:
+    <br><br>
+    1. RV University Girls Hostel (DJ Block),RV University Campus,
+    <br><br>
+    2. RV Vidyanikethan Post, 8th Mile, Mysuru Road, Bengaluru-560059
+    <br><br>
+    For Information please contact: Hostel Office – 080-67178424 / 67178148.
+    </p>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br><br><br><br> <br><br><br> <br><br><br>  <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br>
+    <h2 class="H3">Closed Circuit TV’s (CCTV)</h2>
+    <img class="cctv" src="img/CCTV.jpg">
+    <p class="P2">CCTV’s have been installed at all vantage points inside and around the campus and<br> also inside the buildings to ensure 24×7 safety and security. The feeds from the<br> CCTVs are monitored by a team of people, who are always on the lookout for any<br> problem areas, and taking preventive or speedy action, when required.</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <ol style="background-color: black;list-style: none;color: white;">
+        <section id="Contacts">
+            <li style="font-size: 30px;">CONTACT</li>
+            <ol style="font-size: 20px;">
+                <br><br><br>
+                <li>For general enquiry: enquiry@rvu.edu.in</li>
+                <br><br>
+                <li>Phone: +91 95136 73778</li>
+                <br><br>
+                <li>For admissions: admissions@rvu.edu.in</li>
+                <br><br>
+                <li>Phone: +91 89511 79896</li>
+                <br><br>
+                <li>Location: RV Vidyanikethan Post
+                    8th Mile , Mysuru Road, Bengaluru - 560 059</li>
+            </ol>
+            <br><br><br>
+            <div class="grid-container">
+                <div><a href="https://www.facebook.com/RV.University1/" target="_blank"><img src="img/facebook.png"  class="img2"></a></div>
+                <div><a href="https://twitter.com/rvuniversity_" target="_blank"><img src="img/twitter.png" class="img3"></a></div>
+                <div><a href="https://www.instagram.com/rv.university/" target="_blank"><img src="img/insta.png"  class="img4"></a></div>  
+                <div><a href="https://in.linkedin.com/company/rv-university" target="_blank"><img src="img/linkdin.png"  class="img5"></a></div>
+                <div><a href="https://www.youtube.com/c/RVUniversity" target="_blank"><img src="img/youtube.png"  class="img6"></a></div>
+            </div>
+            <br><br>
+        </section>
+        <p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;color: white;text-align: center;">Copyright &copy; Sumedha Vijay</p>
+            <br><br>
+        </ol>
+</body>
+</html>
